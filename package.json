@@ -8,7 +8,8 @@
   "scripts": {
     "_install": "bash shell/create-ollama.sh",
     "_uninstall": "bash shell/prune.sh",
-    "start": "bash shell/create-ollama.sh"
+    "falcon": "bash shell/falcon3-10b.sh",
+    "deepseek": "bash shell/deepseek-14b.sh"
   },
   "type": "commonjs",
   "version": "1.0.0"
